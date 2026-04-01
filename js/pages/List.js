@@ -54,6 +54,14 @@ export default {
                             <div class="type-title-sm">Password</div>
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
+                        <li>
+                            <div class="type-title-sm">Handcam</div>
+                            <p>{{ level.handcam || 'Not Required' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Humanly Impossible</div>
+                            <p>{{ level.handcam || 'Humanly Impossible' }}</p>
+                        </li>
                     </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
@@ -100,7 +108,7 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 5760fps)
                     </p>
                     <p>
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
