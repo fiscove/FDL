@@ -55,12 +55,8 @@ export default {
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Handcam</div>
-                            <p>{{ level.handcam || 'Not Required' }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Humanly Impossible</div>
-                            <p>{{ level.handcam || 'Humanly Impossible' }}</p>
+                            <div class="type-title-sm">Difficulty Index</div>
+                            <p>{{ level.difindex || 'Difficulty Index' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
