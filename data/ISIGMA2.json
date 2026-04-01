@@ -8,5 +8,12 @@
     "percentToQualify": 8,
     "wr": "10% — realfishtrust",
     "difindex": "81.5",
-    "records": []
+    "records": [
+        {
+            "user": "realfishtrust",
+            "link": "",
+            "percent": 10,
+            "hz": 100
+        }
+    ]
 }
