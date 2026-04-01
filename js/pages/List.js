@@ -51,8 +51,8 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">World Record</div>
+                            <p>{{ level.wr || 'World Record' }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Difficulty Index</div>
